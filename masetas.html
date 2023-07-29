@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="masetas.css">
+    <link rel="stylesheet" href="./carrito.css">
+
+    <script defer src="./carrito.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+
+            <h1> <img class="logo__flor" src="proyecto/ttt.png"></h1>
+
+            <nav>
+                <ul class="boton">
+                    <li> <a class="link" href="index.html">Home</a></li>
+                    <li> <a class="link" href="productovivero.html">Catalogo</a></li>
+                    <li> <a class="link" href="contacto.html">Contacto</a></li>
+                    <li> <a class="link" href="compra.html">Compra</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="carrito">
+                <button class="btn btn__carrito"><img src="./proyecto/carros.png" alt="carrito de compras"></button>
+
+                <ul class="carrito-productos">
+                    <li class="item">Total:<span id="total">₡</span></li>
+                    <li><button class="btn carrito__btn__comprar" id="comprar-todo">Comprar</button></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="nav__input">
+
+            <label for="input" class="input__label">Buscar</label>
+            <div class="input__container">
+
+                <input type="text" class="input" placeholder="buscar" id="input">
+                <img class="input__img" src="proyecto/lupa (1).png" alt="icono input">
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="card">
+
+            <h2 class="card__titulo">lirios </h2>
+            <br>
+            <div class="card__img"><img src="masetas/Maceteros-Plastico.jpg" alt="iamgen de lirios"></div>
+            <br>
+            <p class="card__texto">#1987908</p>
+            <br>
+            <p class="card__texto precio">₡700</p>
+
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">lirios</h2>
+            <br>
+            <div class="card__img"><img src="masetas/mini-macetas-barro.jpg" alt="iamgen de Cactus"></div>
+            <br>
+
+            <p class="card__texto">#1234523523</p>
+            <br>
+            <p class="card__texto precio">₡800</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">lirios</h2>
+
+            <div class="card__img"><img src="masetas/MKP000183580_10268923_PL_20220221185745_0_l.jpg"
+                    alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#199438472</p>
+            <br>
+            <p class="card__texto precio">₡800</p>
+
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Suculentas</h2>
+
+            <div class="card__img"><img src="masetas/susccc.jpg" alt="iamgen de lirios"></div>
+            <br>
+
+            <p class="card__texto">#1987647</p>
+            <br>
+            <p class="card__texto precio">₡700</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Suculentas</h2>
+
+            <div class="card__img"><img src="masetas/sususus.jpg" alt="iamgen de Cactus"></div>
+            <br>
+            <p class="card__texto">#1342344</p>
+            <br>
+            <p class="card__texto precio">₡500</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Suculentas</h2>
+
+            <div class="card__img"><img src="masetas/images.jpg" alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#198786567</p>
+            <br>
+            <p class="card__texto precio">₡400</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Cactus</h2>
+
+            <div class="card__img"><img src="masetas/cactttt.jpg" alt="iamgen de Cactus"></div>
+            <br>
+            <p class="card__texto">#193838734</p>
+            <br>
+            <p class="card__texto precio">₡500</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Cactus</h2>
+
+            <div class="card__img"><img src="masetas/D_NQ_NP_635588-MLA51617782011_092022-W.jpg" alt="iamgen de Cactus">
+            </div>
+            <br>
+            <p class="card__texto">#17342344</p>
+            <br>
+            <p class="card__texto precio">₡500</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div class="card">
+
+            <h2 class="card__titulo">Cactus</h2>
+
+            <div class="card__img"><img
+                    src="masetas/Macetas-de-plantas-falsas-para-decoraci-n-de-hogar-jard-n-al-aire-libre-maceta-realista.jpg"
+                    alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#193948745950</p>
+            <br>
+            <p class="card__texto precio">₡400</p>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+    </main>
+    <footer class="footer"><!---->
+        <img src="proyecto/pie pagina.png">
+        <p class="copyright"> &copy Copyrigth ViVero Fnny Lu -2023</p>
+    </footer>
+
+</body>
+
+</html>

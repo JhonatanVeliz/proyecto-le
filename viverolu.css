@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #e8cfee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: url(proyecto/bg.jpg);
+    padding: 40px 0;
+}
+
+.logo__flor {
+    margin-left: 220px;
+}
+
+.caja {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 25px;
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 250px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fbfbfb;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e30dd8;
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    padding: 0 300px;
+    margin: 100px 0;
+}
+
+.card {
+    padding: 25px;
+    border: 1px solid#000;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.card:hover {
+    transform: scale(.9);
+    background-color: #0000006e;
+    color: #fff;
+}
+
+.card__titulo {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.card__img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__img {
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    background: url(proyecto/bg.jpg);
+    padding: 50px;
+    margin-top: auto;
+}

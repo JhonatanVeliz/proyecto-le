@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e8cfee;
+}
+
+header{
+    width: 100%;
+    background: url(proyecto/bg.jpg);
+    padding: 20px;
+    
+}
+.container{
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.link{
+    margin-left: 15px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .3s linear;
+}
+.link:hover{
+    color:aqua;
+}
+.nav__input{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.input__label{
+
+    margin-right: 15px;
+    color: #fff;
+}
+.input__container{
+    position: relative;
+
+}
+.input{
+     padding: 10px;
+     border-radius: 5px;
+     width: 300px;
+
+}
+.input__img{
+
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px  0;
+}
+.titulo{
+    padding: 20px 0;
+    gap:30px;
+}
+.imagenes___container{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 0;
+
+
+}
+.img1, .img2, .img3{
+     
+    width: 300px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px #0000;
+     display: flex;
+     transition: all .5s linear;
+     cursor: pointer;
+
+     .Mision y Vision{
+        font-weight: bold;
+     }
+}
+.presentacion{
+display: flex;
+flex-direction: column;  
+align-items: center;  
+}
+.presentacion__img{
+    width: 100px;
+    margin: 20px 0;
+}
+
+
+.img:hover{
+ 
+    transform:scale(1.1);
+
+}
+
+.ubicacion{
+
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+.ubicacion__mapa{
+
+    width: 100%;
+    border: 1px #0000;
+    display: flex;
+    padding: 5px;
+
+}
+.ubicacion__img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.ubicacion__texto{
+     margin-left: 10px;
+
+}
+.texto{
+
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 17px;
+
+}
+footer{
+    width: 100%;
+    background: url(proyecto/bg.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.copy{
+    color: #fff;
+}

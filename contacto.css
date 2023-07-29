@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+font-family: "Times New Roman", Times, serif;
+    background-color: #e8cfee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header{
+    
+
+    background: url(proyecto/bg.jpg);
+    padding:40px 0;
+   
+}
+
+.logo__flor{
+    
+    margin-left: 220px;
+
+}
+
+
+
+
+.caja{
+    width: 100%;/* aque distancia quiere que se encuentre*/
+    display: flex; /*aqui modifico la posicion tdo recuadro botonnes  etc*/
+    align-items: center;
+    height: 100px;
+    padding: 25px;
+    
+   }
+
+   
+
+nav{
+     position: absolute;
+     top: 85px;  /*especifica parte de la posición de un elemento posicionado*/
+     right:250px; /**/
+     
+     
+}
+
+
+ nav li {
+
+display: inline;/*nos ayuda a controlar dónde se va a ver un elemento HTML dentro de la pantalla para estructurar nuestra página*/
+margin: 0 0 0 15px;/* espacio que se encuentre cada boton */
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fbfbfb;
+    font-weight: bold;/* nav: Además de decirle al navegador que es un elemento de navegación principal para enlaces y otras cosas,
+    
+    div: que se usa específicamente para rodear la barra o los elementos de navegación. 
+    */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ nav a:hover{
+    /* a:hover es la extencion que nos permite relacionar accion tocar boton cambia de color */
+    color: #e30dd8;
+    text-decoration: underline;/*aqui cambiamos color del texto*/
+
+ }
+
+
+ main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    padding: 0 300px;
+    margin: 100px 0;
+
+ }
+
+.card{
+    padding: 25px;
+    border: 1px solid#000;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.card:hover{
+    transform: scale(.9);
+    background-color: #0000006e;
+    color: #fff;
+}
+
+.card__titulo{
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.card__img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__img{
+    width: 350px;
+}
+
+footer{
+    text-align: center;
+    background: url(proyecto/bg.jpg);
+    padding: 50px;
+    margin-top: auto;
+}
+
+/************************contactenos******************************/
+
+.leg__titulo{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.leg__principal{
+
+    border-color: #252325;
+    border-radius: 15px;
+    padding: 50px;
+   
+}
+.parrafo{
+     
+font-weight: bold;
+font-size: 20px;
+
+}
+#input__nombre{
+
+    width: 295px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#input__apellid{
+    width: 290px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#input__cedula{
+    width: 200px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#input__coreo{
+    width: 310px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#input__dire{
+    width: 280px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#input__telefono{
+    width: 290px;
+    border-bottom: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#input__mensaje{    
+
+    border-color: #000;
+    border: 22%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.mensaje{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+   
+}
+textarea{
+    height: 100px;
+}
+
+.parrafo__condiciones{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.input__condiones{
+
+align-items: center;
+background-color: #e30dd8;  
+cursor: pointer;
+
+}
+.aceptar__condiciones{
+
+    width: 14%;
+    padding: 8px;
+    border-radius: 7px;
+    border: #e33f0d;
+    background-color: aqua;
+    color: #0f0e0e;
+    cursor: pointer;
+}
+.aceptar__condiciones:hover{
+    background-color: #e33f0d;
+    color: #f2e7e7;
+}
+
+form{
+   
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 100px;
+
+    gap: 30px;
+    cursor: pointer;
+
+}

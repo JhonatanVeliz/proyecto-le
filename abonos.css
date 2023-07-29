@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+     background: url(proyecto/bg.jpg);
+     width: 100%;
+}
+body{
+    background-color: #e8cfee;
+
+}
+
+.nav{
+    width: 100%;
+    background: url(proyecto/bg.jpg);
+    display: flex;
+    justify-content: space-between;/*separa*/
+    padding: 0 200px;
+    padding-top: 20px;
+    align-items: center;
+
+}
+.nav__input{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.input__label{
+
+    color: #fff;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.input__container{
+
+    position: relative;
+
+}
+.input{
+      
+padding: 7px;
+width: 300px;
+border-radius: 5px;
+
+}
+.input__img{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+.link{
+    margin-left: 20px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.boton{
+    display: flex;
+}
+
+
+main{/* donde se encuentra kas imagenes*/
+    width: 70%;
+    padding: 0 50px;
+    margin: 50px auto;/*centado*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/*acomoda las columnas*/
+    
+
+ }
+
+.card{/*cajas*/
+    
+    padding: 50px;
+    border: 1px solid#000;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all.3s linear;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    text-decoration: none;
+    color: #000;
+    width: 300px;
+
+
+}
+
+.card:hover{
+    transform: scale(.9);
+    background-color: #0000006e;
+    color: #fff;
+}
+
+.card__titulo{
+    font-size: 25px;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+
+.card__img img{
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card__btn{
+
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(10, 143, 232);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    /*justify-content:center ;centrarlo*/
+    width: 100%;
+    background: url(proyecto/bg.jpg);
+    flex-direction: column;
+    align-items: center;
+}
+.copyright{
+    color: #fff;
+}

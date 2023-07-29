@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="abonos.css">
+    <link rel="stylesheet" href="./carrito.css">
+
+    <script defer src="./carrito.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+
+            <h1> <img class="logo__flor" src="proyecto/ttt.png"></h1>
+
+            <nav>
+                <ul class="boton">
+                    <li> <a class="link" href="index.html">Home</a></li>
+                    <li> <a class="link" href="productovivero.html">Catalogo</a></li>
+                    <li> <a class="link" href="contacto.html">Contacto</a></li>
+                    <li> <a class="link" href="compra.html">Compra</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="carrito">
+                <button class="btn btn__carrito"><img src="./proyecto/carros.png" alt="carrito de compras"></button>
+
+                <ul class="carrito-productos">
+                    <li class="item">Total:<span id="total">₡</span></li>
+                    <li><button class="btn carrito__btn__comprar" id="comprar-todo">Comprar</button></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="nav__input">
+
+            <label for="input" class="input__label">Buscar</label>
+            <div class="input__container">
+
+                <input type="text" class="input" placeholder="buscar" id="input">
+                <img class="input__img" src="proyecto/lupa (1).png" alt="icono input">
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">abono granza de arroz </h2>
+            <br>
+            <div class="card__img"><img src="abonos/25090.jpg" alt="iamgen de lirios"></div>
+            <br>
+            <p class="card__texto">#5987908</p>
+            <br>
+            <p class="card__texto precio">₡2700</p>
+
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">gallinaza</h2>
+            <br>
+            <div class="card__img"><img src="abonos/descarga.jpg" alt="iamgen de Cactus"></div>
+            <br>
+
+            <p class="card__texto">#534523523</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">abono de sustrato</h2>
+
+            <div class="card__img"><img src="abonos/descarga (1).jpg" alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#59438472</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">abono desechos frutas y verduras</h2>
+
+            <div class="card__img"><img src="abonos/standard_manos compost.jpg.jpg" alt="iamgen de lirios"></div>
+            <br>
+
+            <p class="card__texto">#5987647</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">, abono orgánico</h2>
+
+            <div class="card__img"><img src="abonos/descarga (2).jpg" alt="iamgen de Cactus"></div>
+            <br>
+            <p class="card__texto">#5542344</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">abono cascara de coco rallado</h2>
+
+            <div class="card__img"><img src="abonos/descarga (3).jpg" alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#555786567</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">fertilizantes best</h2>
+
+            <div class="card__img"><img src="abonos/descarga (4).jpg" alt="iamgen de Cactus"></div>
+            <br>
+            <p class="card__texto">#592928321</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">fertilizante de canela</h2>
+
+            <div class="card__img"><img src="abonos/descarga (5).jpg" alt="iamgen de Cactus"></div>
+            <br>
+            <p class="card__texto">#52342344</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+        <div href="#" class="card">
+
+            <h2 class="card__titulo">abono cascara huevo triturado</h2>
+
+            <div class="card__img"><img src="abonos/descarga (6).jpg" alt="iamgen de Suculentas"></div>
+            <br>
+
+            <p class="card__texto">#5948745950</p>
+            <br>
+            <p class="card__texto precio">₡1800</p>
+            <br>
+            <p><input type="number" class="card__btn cantidad" name="cantidad" id="number" max="100" min="1"></p>
+
+            <button class="card__btn comprar">Comprar</button>
+        </div>
+
+    </main>
+    <footer class="footer"><!---->
+        <img src="proyecto/pie pagina.png">
+        <p class="copyright"> &copy Copyrigth ViVero Fnny Lu -2023</p>
+    </footer>
+
+</body>
+
+</html>
